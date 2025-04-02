@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Filmes Populares
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um aplicativo **Vue** que exibe os filmes populares utilizando a **API do TMDB (The Movie Database)**.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tecnologias Utilizadas
+- Vue.js
+- Fetch API para chamadas HTTP
+- CSS para estilização
+
+# Crie um arquivo **.env** na raiz do projeto e adicione sua chave da API do TMDB:
+   ```
+   VITE_API_KEY=SUA_API_KEY_AQUI
+   ```
+
+## Fonte dos Dados
+Os dados dos filmes são fornecidos pela **[API do TMDB](https://developer.themoviedb.org/reference/intro/getting-started)**.
